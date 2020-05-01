@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Logout User"
+
+        android:textColor="#000"
+        android:fontFamily="monospace"
+
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="236dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="30dp"
+
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/style2"
+        android:fontFamily="monospace"
+        android:text="LOGOUT"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
