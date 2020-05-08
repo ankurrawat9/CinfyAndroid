@@ -35,7 +35,6 @@ public class ChangepasswordFragment extends Fragment {
                  String p1=e1.getText().toString().trim();
                  String p2=e2.getText().toString().trim();
 
-
                  if(p1.contentEquals(p2) && !p1.matches("") && !p2.matches("")){
 
                      Toast.makeText(getActivity(), "great! your password is valid", Toast.LENGTH_SHORT).show();
@@ -43,11 +42,8 @@ public class ChangepasswordFragment extends Fragment {
                  }
                   else
                  {
-
                      e2.setError(" password does not match");
                  }
-
-
 
              }
          });

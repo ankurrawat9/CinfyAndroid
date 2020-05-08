@@ -33,6 +33,8 @@ public class UserHome extends AppCompatActivity {
         NavigationView navigationView = findViewById(R.id.nav_view);
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
+
+
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home, R.id.nav_profilepic, R.id.nav_changepass,
                 R.id.nav_logout, R.id.nav_aboutus, R.id.nav_contact)
