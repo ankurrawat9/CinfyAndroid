@@ -18,6 +18,7 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.example.cinfysystems.FortuneSpinner;
+import com.example.cinfysystems.PayAmount;
 import com.example.cinfysystems.R;
 
 public class HomeFragment extends Fragment {
@@ -32,6 +33,19 @@ public class HomeFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_home, container, false);
 
         final Button b1= root.findViewById(R.id.button1);
+        final Button b2= root.findViewById(R.id.button2);
+
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent i=new Intent(getActivity(), PayAmount.class);
+                startActivity(i);
+
+            }
+        });
+
+
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
